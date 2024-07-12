@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>E-learning Platform</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div class="profile-info">
+                <img src="profile.jpg" alt="User Profile Picture">
+                <h3>Neha</h3>
+                <p>Email: neha04@gmail.com</p>
+            </div>
+        </section>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <div class="course">
+                <img src="1.jpg" alt="Course 1">
+                <h3>Course 1: Introduction to Programming</h3>
+                <p>Instructor: Smith</p>
+                <button onclick="enroll('Introduction to Programming')">Enroll</button>
+            </div>
+            <div class="course">
+                <img src="2.jfif" alt="Course 2">
+                <h3>Course 2: Advanced Mathematics</h3>
+                <p>Instructor: John</p>
+                <button onclick="enroll('Advanced Mathematics')">Enroll</button>
+            </div>
+        </div>
+        <div class="course">
+            <img src="design-learning.jpg" alt="Course 3">
+            <h3>Course 3: Design Learning</h3>
+            <p>Instructor: Rohit</p>
+            <button onclick="enroll('Design Learning')">Enroll</button>
+        </div>
+    </div>
+    <div class="course">
+        <img src="English.jfif" alt="Course 4">
+        <h3>Course 4: English Communication</h3>
+        <p>Instructor: Chetna</p>
+        <button onclick="enroll('English Communication')">Enroll</button>
+    </div>
+            <!-- Add more courses as needed -->
+        </section>
+        <section id="progress">
+            <h2>Your Courses</h2>
+            <ul id="enrolled-courses">
+                <!-- Enrolled courses will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
